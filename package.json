@@ -5,18 +5,18 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "deepar": "^5.6.13",
-    "homepage": "https://github.com/trankien27/demo-filter",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "homepage": "https://trankien27/github.io/demo-filter"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+      "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
     "react-webcam": "^7.2.0",
     "web-vitals": "^4.2.4"
   }
